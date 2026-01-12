@@ -4,7 +4,7 @@ export const AGENT_DATA = {
   name: 'Sneha Rudra',
   role: 'Principal Consultant & Founder',
   firm: 'PropTechdiva',
-  photo: '/public/profile.png',
+  photo: '/profile.png',
   
   bio: 'With over 5 years of excellence in high-ticket real estate, I specialize in identifying off-market opportunities and   ury residences that define modern living standards.',
   rera: 'UPRERAPRJ12345',
@@ -19,7 +19,7 @@ export const MARKET_INTEL: Blog[] = [
     excerpt: 'A concise guide to buyer costs across Delhi, Noida, Greater Noida and Gurgaon — including typical stamp duty ranges, registration fees, and practical examples to help estimate upfront transaction costs for residential buyers and investors in 2024–25.',
     category: 'Market Trends',
     date: 'Nov 05, 2024',
-    image: '/public/market_analysis.png'
+    image: '/market_analysis.png'
   },
   {
     id: 'mi2',
@@ -27,7 +27,7 @@ export const MARKET_INTEL: Blog[] = [
     excerpt: 'Sector-wise ROI snapshot and rental-yield primer: a data-driven shortlist of neighbourhoods with strong infrastructure catalysts, recent appreciation, and best-in-class tenancy demand for investors evaluating Noida and Gurgaon.',
     category: 'Investment',
     date: 'Nov 01, 2024',
-    image: '/public/invesment.png'
+    image: '/invesment.png'
   }
 ];
 
@@ -76,7 +76,7 @@ export const PROPERTIES: Property[] = [
     bhk: 3,
     area: 2100,
     status: PropertyStatus.READY,
-    images: ['/public/im1.jpeg'], 
+    images: ['/im1.jpeg'], 
     description: 'Luxury ocean-front residency for those who seek the best of coastal living.',
     amenities: ['Sea View', 'Concierge', 'High-speed Elevators', 'Indoor Sports'],
     insights: [
