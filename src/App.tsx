@@ -417,7 +417,7 @@ const App: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-20 items-center">
             <div className="lg:col-span-6 relative">
               <div className="relative z-10 rounded-[3.5rem] overflow-hidden shadow-2xl shadow-indigo-950/20 border-8 border-white">
-                <img src="/images/the_founder_legacy.jpeg" className="w-full aspect-[4/5] object-cover" alt="Our Workspace" />
+                <img src="/the_founder_legacy.jpeg" className="w-full aspect-[4/5] object-cover" alt="Our Workspace" />
               </div>
               
               {/* Floating Achievement Card */}
